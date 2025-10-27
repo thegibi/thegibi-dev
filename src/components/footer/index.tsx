@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       
       <div className="mt-8 text-sm md:text-base text-center text-gray-500">
-        ©{new Date().getFullYear()} The Gibi
+        ©{new Date().getFullYear()} The Gibi Official
       </div>
     </footer>
   );

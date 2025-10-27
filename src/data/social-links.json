@@ -21,6 +21,11 @@
       "path": "https://www.github.com/thegibi"
     },
     {
+      "name": "YouTube",
+      "icon": "youtube",
+      "path": "https://www.youtube.com/@thegibiofficial"
+    },
+    {
       "name": "website",
       "icon": "website",
       "path": "https://www.thegibi.dev"
