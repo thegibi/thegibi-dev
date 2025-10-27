@@ -1,10 +1,10 @@
 'use client'
-import links from "@/data/social-links.json"
-import clsx from "clsx";
-import Link from "next/link";
 import { Icon } from "@/components/icon";
+import links from "@/data/social-links.json";
+import clsx from "clsx";
+import { motion } from "framer-motion";
+import Link from "next/link";
 import { Children } from "react";
-import { motion } from "framer-motion"
 
 export default function BioComponent() {
   return (
@@ -34,9 +34,9 @@ export default function BioComponent() {
                 href={link.path}
                 target='_blank'
                 rel='noopener noreferrer'
-                className="flex items-center w-full max-w-28"
+                className="flex items-center w-full justify-center"
               >
-                <Icon name={link.name} />
+                <Icon name={link.icon} />
                 <span className="ml-2">{link.name}</span>
               </Link>
             </li>
